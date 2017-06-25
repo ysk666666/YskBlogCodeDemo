@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72E4E00E1EFF83F500E46787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E4E00D1EFF83F500E46787 /* AppDelegate.swift */; };
+		72E4E0151EFF83F500E46787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E4E0141EFF83F500E46787 /* Assets.xcassets */; };
+		72E4E0181EFF83F500E46787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E4E0161EFF83F500E46787 /* LaunchScreen.storyboard */; };
+		72E4E0211EFF845F00E46787 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E4E01F1EFF845F00E46787 /* AViewController.swift */; };
+		72E4E0221EFF845F00E46787 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E4E0201EFF845F00E46787 /* AViewController.xib */; };
+		72E4E0251EFF846C00E46787 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E4E0231EFF846C00E46787 /* BViewController.swift */; };
+		72E4E0261EFF846C00E46787 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E4E0241EFF846C00E46787 /* BViewController.xib */; };
+		72E4E0311EFF852A00E46787 /* YRouterNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E4E0301EFF852A00E46787 /* YRouterNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72E4E00A1EFF83F500E46787 /* YRouterSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRouterSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72E4E00D1EFF83F500E46787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72E4E0141EFF83F500E46787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72E4E0171EFF83F500E46787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72E4E0191EFF83F500E46787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E4E01F1EFF845F00E46787 /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		72E4E0201EFF845F00E46787 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		72E4E0231EFF846C00E46787 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		72E4E0241EFF846C00E46787 /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		72E4E0301EFF852A00E46787 /* YRouterNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YRouterNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72E4E0071EFF83F500E46787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72E4E0011EFF83F500E46787 = {
+			isa = PBXGroup;
+			children = (
+				72E4E00C1EFF83F500E46787 /* YRouterSwiftDemo */,
+				72E4E00B1EFF83F500E46787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72E4E00B1EFF83F500E46787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72E4E00A1EFF83F500E46787 /* YRouterSwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72E4E00C1EFF83F500E46787 /* YRouterSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				72E4E02F1EFF851E00E46787 /* Class */,
+				72E4E00D1EFF83F500E46787 /* AppDelegate.swift */,
+				72E4E01F1EFF845F00E46787 /* AViewController.swift */,
+				72E4E0201EFF845F00E46787 /* AViewController.xib */,
+				72E4E0231EFF846C00E46787 /* BViewController.swift */,
+				72E4E0241EFF846C00E46787 /* BViewController.xib */,
+				72E4E0141EFF83F500E46787 /* Assets.xcassets */,
+				72E4E0161EFF83F500E46787 /* LaunchScreen.storyboard */,
+				72E4E0191EFF83F500E46787 /* Info.plist */,
+			);
+			path = YRouterSwiftDemo;
+			sourceTree = "<group>";
+		};
+		72E4E02F1EFF851E00E46787 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				72E4E0301EFF852A00E46787 /* YRouterNavigationController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72E4E0091EFF83F500E46787 /* YRouterSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72E4E01C1EFF83F500E46787 /* Build configuration list for PBXNativeTarget "YRouterSwiftDemo" */;
+			buildPhases = (
+				72E4E0061EFF83F500E46787 /* Sources */,
+				72E4E0071EFF83F500E46787 /* Frameworks */,
+				72E4E0081EFF83F500E46787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRouterSwiftDemo;
+			productName = YRouterSwiftDemo;
+			productReference = 72E4E00A1EFF83F500E46787 /* YRouterSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72E4E0021EFF83F500E46787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = china;
+				TargetAttributes = {
+					72E4E0091EFF83F500E46787 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4EZ94W5ATF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72E4E0051EFF83F500E46787 /* Build configuration list for PBXProject "YRouterSwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72E4E0011EFF83F500E46787;
+			productRefGroup = 72E4E00B1EFF83F500E46787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72E4E0091EFF83F500E46787 /* YRouterSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72E4E0081EFF83F500E46787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E4E0221EFF845F00E46787 /* AViewController.xib in Resources */,
+				72E4E0261EFF846C00E46787 /* BViewController.xib in Resources */,
+				72E4E0181EFF83F500E46787 /* LaunchScreen.storyboard in Resources */,
+				72E4E0151EFF83F500E46787 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72E4E0061EFF83F500E46787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E4E0211EFF845F00E46787 /* AViewController.swift in Sources */,
+				72E4E0251EFF846C00E46787 /* BViewController.swift in Sources */,
+				72E4E0311EFF852A00E46787 /* YRouterNavigationController.swift in Sources */,
+				72E4E00E1EFF83F500E46787 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72E4E0161EFF83F500E46787 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72E4E0171EFF83F500E46787 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72E4E01A1EFF83F500E46787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72E4E01B1EFF83F500E46787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72E4E01D1EFF83F500E46787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EZ94W5ATF;
+				INFOPLIST_FILE = YRouterSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysk.YRouterSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		72E4E01E1EFF83F500E46787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4EZ94W5ATF;
+				INFOPLIST_FILE = YRouterSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ysk.YRouterSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72E4E0051EFF83F500E46787 /* Build configuration list for PBXProject "YRouterSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E4E01A1EFF83F500E46787 /* Debug */,
+				72E4E01B1EFF83F500E46787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72E4E01C1EFF83F500E46787 /* Build configuration list for PBXNativeTarget "YRouterSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E4E01D1EFF83F500E46787 /* Debug */,
+				72E4E01E1EFF83F500E46787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72E4E0021EFF83F500E46787 /* Project object */;
+}
