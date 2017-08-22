@@ -36,19 +36,20 @@ class YRouterNavigationController: UINavigationController {
         return vc
     }
     
-    func openURLString(_ urlString: String, parameter: Any?) -> Void {
+    @discardableResult func openURLString(_ urlString: String, parameter: Any?) -> UIViewController {
         guard let url = URL(string: urlString) else {
-            return
+            return UIViewController()
         }
         let vc = YRouterNavigationController.viewControllerForURL(url, parameter: parameter)
         vc.ynav = self
         vc.hidesBottomBarWhenPushed = true
         self.pushViewController(vc, animated: true)
+        return vc
     }
     
-    func presentURLString(_ urlString: String, parameter: Any?) -> Void {
+    @discardableResult func presentURLString(_ urlString: String, parameter: Any?) -> UIViewController {
         guard let url = URL(string: urlString) else {
-            return
+            return UIViewController()
         }
         let vc = YRouterNavigationController.viewControllerForURL(url, parameter: parameter)
         let nav = YRouterNavigationController(rootViewController: vc)
@@ -56,6 +57,7 @@ class YRouterNavigationController: UINavigationController {
         self.present(nav, animated: true) { 
             
         }
+        return vc
     }
     
     override func didReceiveMemoryWarning() {
@@ -79,6 +81,7 @@ class YRouterNavigationController: UINavigationController {
 private var parameterKey: UInt8 = 0
 private var urlKey: UInt8 = 1
 private var ynavKey: UInt8 = 2
+private var returnClosureKey: UInt8 = 0
 extension UIViewController {
     var parameter: Any? {
         get {
@@ -109,4 +112,16 @@ extension UIViewController {
         self.ynav.popViewController(animated: true)
     }
     
+    typealias ReturnInfoClosure = ((_ returnObject: Any) -> Void)
+    var returnClosure: ReturnInfoClosure? {
+        get {
+            return objc_getAssociatedObject(self, &returnClosureKey) as? ReturnInfoClosure
+        }
+        set {
+            objc_setAssociatedObject(self, &returnClosureKey, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+        }
+    }
+    func getReturnClosure(_ closure: @escaping ReturnInfoClosure) -> Void {
+        self.returnClosure = closure
+    }
 }

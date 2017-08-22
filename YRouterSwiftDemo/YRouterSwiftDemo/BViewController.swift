@@ -20,10 +20,12 @@ class BViewController: UIViewController {
         let method = (self.parameter as? [String: String])?["method"] ?? ""
         if method == "push" {
             self.ynav.popViewController(animated: true)
+            self.returnClosure?("push的回调返回值")//回调的所有数据放在这
         } else if method == "present" {
             self.ynav.dismiss(animated: true, completion: { 
                 
             })
+            self.returnClosure?("present的回调返回值")
         }
     }
 

@@ -16,10 +16,16 @@ class AViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func pushButtonTarget(_ sender: Any) {
-        self.ynav.openURLString("ysk://BViewController", parameter: ["method": "push"])
+        let vc = self.ynav.openURLString("ysk://BViewController", parameter: ["method": "push"])
+        vc.getReturnClosure { (object) in
+            print(object)
+        }
     }
     @IBAction func presentButtonTarget(_ sender: Any) {
-        self.ynav.presentURLString("ysk://BViewController", parameter: ["method": "present"])
+        let vc = self.ynav.presentURLString("ysk://BViewController", parameter: ["method": "present"])
+        vc.getReturnClosure { (object) in
+            print(object)
+        }
     }
 
     override func didReceiveMemoryWarning() {
